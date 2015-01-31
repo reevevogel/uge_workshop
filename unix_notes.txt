@@ -62,24 +62,4 @@ mv = move file to directory +rename them +move&rename
 mkdir = make directory
 repository  = a place to store history of file
 “.” before a file or directory means it is hidden
-
-Git:
--for man in Git must put a “-“ to connect words
--init = creates new repository in current directory
--dont git init in clone project
--git status looks inside staging area (git st)
--git add + file name to add to staging area
--git rm —cached +file name to unstage
-git commit -m +’file name’ adds id, message, timestamp, diff, signature
--green check nothing in staging area. no files untracked.
--red x is a dirty directory, files untracked in staging area
--use present tense when writing a message
--git log = look at commits (git status look at staging area)
--git ll = shows long info
--git la = shows all
-.git = staging area and commits lives within
--rm .git to delete history
-
-
-
-
+-touch = to modify time without modifying content. also creates file.
