@@ -1,0 +1,29 @@
+Git:
+-git = a version control system
+-for man in Git must put a “-“ to connect words
+-init = creates new repository in current directory
+-dont git init in clone project
+-git status looks inside staging area (git st)
+-git add + file name to add to staging area
+-git rm —cached +file name to unstage
+git commit -m +’file name’ adds id, message, timestamp, diff, signature
+-green check nothing in staging area. no files untracked.
+-red x is a dirty directory, files untracked in staging area
+-use present tense when writing a message
+-git log = look at commits (git status look at staging area)
+-git ll = shows long info
+-git la = shows all
+.git = staging area and commits lives within
+-rm .git to delete history
+-git ci -m ‘file name’ = shortcut for git commit
+-you init a repository once, add to staging area, commit, modify, stage, commit
+-git blame + file name+ = shows who did what
+-head label- always points to the most recent commit
+-master label = given to the first branch (when you git init) (default)
+branch = a label that points to a specific place and time
+-head and master keep up with latest commit
+git branch = adds label to current commit
+make a new branch with the “git branch” command (ex: git branch git-notes)
+-“git branch” command shows branch list
+-"git checkout” + branch name changes active branch
+-touch = to modify time without modifying content. also creates file.
